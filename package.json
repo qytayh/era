@@ -1,0 +1,24 @@
+{
+  "name": "era",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w",
+    "playground": "vite --config playground/vite.config.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Joker <13255238145@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.4.3",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  }
+}
